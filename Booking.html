@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Haukai Restaurant</title>
+<link rel='stylesheet' type='text/css' href='css/home.css'>
+<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div class="header">
+    <a href="./index.html">
+      <img src="images/LOGO.jpg" alt="Logo" width="202" height="193">
+    </a>
+    <div class="flex-container">
+      <div class="box">
+        <a href="./index.html">Home</a>
+      </div>
+      <div class="box">
+        <a href="./Booking.html">Booking</a>
+      </div>
+      <div class="box">
+        <a href="./Contact.html">Contact</a>
+      </div>
+      <div class="box">
+        <a href="./Menu.html">Menu</a>
+      </div>
+      <div class="box">
+        <a href="./Giftcard.html">Giftcard</a>
+      </div>
+      <div class="box">
+        <a href="./Contact.html">About</a>
+      </div>
+      <div class="box">
+        <a href="./Login.html">Staff</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="subhead">
+    <h1>Bookings</h1>  
+  </div>
+
+
+  <div class="booking">
+
+    <iframe id="google-form"
+     src="https://docs.google.com/forms/d/e/1FAIpQLSejNw9c0q14p0ZoB8fIq5e9a0MM4Cfw6dWR8ywqXghD9VNRRQ/viewform?embedded=true" 
+      width="640" height="1205" style="border: none; margin:0;"></iframe>
+
+    
+  </div>
+
+  <script>
+    // Adjust the height of the iframe to match the content
+    function adjustIframeHeight() {
+        const iframe = document.getElementById("google-form");
+        const contentHeight = iframe.contentWindow.document.body.scrollHeight;
+        iframe.style.height = contentHeight + "px";
+    }
+
+    // Call the function when the iframe is loaded and when the window is resized
+    window.addEventListener("load", adjustIframeHeight);
+    window.addEventListener("resize", adjustIframeHeight);
+</script>
+  
+<div class="main">
+ <h1>Taste the Spirit of Aotearoa at Haukai</h1>
+ </div>
+
+
+<div class="footer">
+  <div class="flex-container"></div>
+  <div class="box">
+    <a href="./Contact.html">Contact</a>
+  </div>
+<div>
+    <a href="./index.html">
+      <img src="images/LOGO.jpg" alt="Logo" width="202" height="193">
+    </a>
+  </div>
+  <div class="box">
+    <a href="./Hours.html">Hours</a>
+  </div>
+</div>
+
+</body>
+</html>
