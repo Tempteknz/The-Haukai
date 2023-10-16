@@ -1,4 +1,0 @@
-AuthName "Staff.html"
-AuthUserFile password\.htpasswd
-AuthType Basic
-require valid-user
